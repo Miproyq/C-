@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cstdio>
 using namespace std;
 
 main(){
@@ -11,4 +11,7 @@ main(){
 	h=i*d;
 	cout<<"New number:";
 	cout<<h;
+	cin.get();
+	cin.get();
+	return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string.h>
+#include <cstdio>
 
 using namespace std;
 
@@ -18,6 +19,8 @@ int main(){
 	cin>>Mr;
 	conc=convert(density,Mr);
 	cout<<"The concentration of"<<substance<<"is:"<<conc<<" mol/dm3";
+	cin.get();
+	cin.get();
 	return 0;
 }
 
